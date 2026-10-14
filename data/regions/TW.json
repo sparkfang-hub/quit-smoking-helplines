@@ -1,0 +1,154 @@
+{
+  "code": "TW",
+  "name": "台灣",
+  "resources": [
+    {
+      "id": "tw-quit",
+      "kind": "cessation",
+      "name": "戒菸專線",
+      "organization": "衛生福利部國民健康署",
+      "number": "0800-636-363",
+      "destination": "tel:0800636363",
+      "scope": "台灣",
+      "hours": "週一至週六 09:00–21:00；春節期間除外",
+      "timeZone": "Asia/Taipei",
+      "cost": "免付費諮詢",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://health.gov.taipei/News_Content.aspx?n=722D64165F95A6E2&s=BFBE8BA8E8FEEEC6&sms=C251F64DC581784F",
+          "fields": [
+            "hours"
+          ],
+          "sourceUpdatedAt": null,
+          "label": "臺北市衛生局"
+        },
+        {
+          "url": "https://www.mohw.gov.tw/cp-16-80233-1.html",
+          "fields": [
+            "number",
+            "scope",
+            "hours",
+            "cost"
+          ],
+          "sourceUpdatedAt": null,
+          "label": "衛福部"
+        }
+      ]
+    },
+    {
+      "id": "tw-line",
+      "kind": "cessation",
+      "name": "LINE 戒菸諮詢 @tsh0800636363",
+      "organization": "衛生福利部國民健康署",
+      "destination": "https://line.me/R/ti/p/@tsh0800636363",
+      "scope": "台灣",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.mohw.gov.tw/cp-16-80233-1.html",
+          "fields": [
+            "destination",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ],
+      "note": "外部 LINE 服務需要網路；不會自動傳送你的紀錄。"
+    },
+    {
+      "id": "tw-services",
+      "kind": "cessation",
+      "name": "找戒菸服務",
+      "organization": "衛生福利部國民健康署",
+      "destination": "https://ttc.hpa.gov.tw/Web/Agency.aspx",
+      "scope": "台灣",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.mohw.gov.tw/cp-16-80233-1.html",
+          "fields": [
+            "destination",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ],
+      "note": "合約醫事機構查詢；網站需要網路。本輪未確認目的網站可正常載入。"
+    },
+    {
+      "id": "tw-emergency",
+      "kind": "emergency",
+      "name": "消防／緊急救護",
+      "organization": "各地消防機關",
+      "number": "119",
+      "destination": "tel:119",
+      "scope": "台灣",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.swcoast-nsa.gov.tw/en/information/phone",
+          "fields": [
+            "number",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "tw-emotional",
+      "kind": "emotional",
+      "name": "安心專線",
+      "organization": "衛生福利部心理健康司",
+      "number": "1925",
+      "destination": "tel:1925",
+      "scope": "台灣",
+      "hours": "24 小時",
+      "timeZone": null,
+      "cost": "免付費心理諮詢",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://dep.mohw.gov.tw/DOMHAOH/cp-4906-54077-107.html",
+          "fields": [
+            "number",
+            "scope",
+            "hours",
+            "cost"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "code": "SG",
+  "name": "新加坡",
+  "resources": [
+    {
+      "id": "sg-quit",
+      "kind": "cessation",
+      "name": "QuitLine",
+      "organization": "Health Promotion Board",
+      "number": "1800 438 2000",
+      "destination": "tel:18004382000",
+      "scope": "新加坡；戒菸與電子煙諮詢",
+      "hours": null,
+      "timeZone": null,
+      "cost": "手機撥打 1800 服務可能產生通話費",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.healthhub.sg/programmes/iquit/",
+          "fields": [
+            "number",
+            "scope",
+            "cost"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ],
+      "note": "官方頁面的服務時間資訊不一致，本版不保證具體時段，請查官方說明。"
+    },
+    {
+      "id": "sg-emergency",
+      "kind": "emergency",
+      "name": "消防／救援／緊急救護車",
+      "organization": "Singapore Civil Defence Force",
+      "number": "995",
+      "destination": "tel:995",
+      "scope": "新加坡；緊急救護，不是一般非緊急救護車預約",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.scdf.gov.sg/home/about-scdf/emergency-medical-services",
+          "fields": [
+            "number",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "sg-emotional",
+      "kind": "emotional",
+      "name": "national mindline",
+      "organization": "新加坡衛生部",
+      "number": "1771",
+      "destination": "tel:1771",
+      "scope": "新加坡；精神健康支持與轉介",
+      "hours": "24 小時",
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/",
+          "fields": [
+            "number",
+            "scope",
+            "hours"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    }
+  ]
+}

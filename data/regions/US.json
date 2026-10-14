@@ -1,0 +1,119 @@
+{
+  "code": "US",
+  "name": "美國",
+  "resources": [
+    {
+      "id": "us-quit",
+      "kind": "cessation",
+      "name": "1-800-QUIT-NOW",
+      "organization": "CDC／各州戒菸專線",
+      "number": "1-800-784-8669",
+      "destination": "tel:18007848669",
+      "scope": "美國；具體服務由所在地專線提供",
+      "hours": null,
+      "timeZone": null,
+      "cost": "免費電話輔導",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/quitline/index.html",
+          "fields": [
+            "number",
+            "scope",
+            "cost"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ],
+      "note": "時段及個別方案資格請向當地專線確認。"
+    },
+    {
+      "id": "us-quit-chinese",
+      "kind": "cessation",
+      "name": "中文戒菸諮詢",
+      "organization": "CDC 所列中文戒菸專線",
+      "number": "1-800-838-8917",
+      "destination": "tel:18008388917",
+      "scope": "美國；中文專線",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": "國語、粵語",
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/quitline/index.html",
+          "fields": [
+            "number",
+            "scope",
+            "languages"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "us-emergency",
+      "kind": "emergency",
+      "name": "緊急救援",
+      "organization": "National 911 Program",
+      "number": "911",
+      "destination": "tel:911",
+      "scope": "美國",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.911.gov/calling-911/",
+          "fields": [
+            "number",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "us-emotional",
+      "kind": "emotional",
+      "name": "988 Suicide & Crisis Lifeline",
+      "organization": "988 Lifeline",
+      "number": "988",
+      "destination": "tel:988",
+      "scope": "美國；情緒困擾及自殺危機支持",
+      "hours": "24 小時、全年無休",
+      "timeZone": null,
+      "cost": "免費支持",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://988lifeline.org/about/",
+          "fields": [
+            "number",
+            "scope",
+            "hours",
+            "cost"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    }
+  ]
+}

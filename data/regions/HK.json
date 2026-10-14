@@ -1,0 +1,89 @@
+{
+  "code": "HK",
+  "name": "香港",
+  "resources": [
+    {
+      "id": "hk-quit",
+      "kind": "cessation",
+      "name": "綜合戒煙熱線",
+      "organization": "香港衞生署控煙酒辦公室",
+      "number": "1833 183",
+      "destination": "tel:1833183",
+      "scope": "香港；由熱線選擇不同戒煙服務機構",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.taco.gov.hk/t/english/quitting/files/Referral_to_SmokingCessationHotline_eng.pdf",
+          "fields": [
+            "number",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "hk-emergency",
+      "kind": "emergency",
+      "name": "警察／消防／救護車",
+      "organization": "香港政府",
+      "number": "999",
+      "destination": "tel:999",
+      "scope": "香港",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.gov.hk/tc/nonresidents/visitinghk/usefulinfo/emergency.htm",
+          "fields": [
+            "number",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "hk-emotional",
+      "kind": "emotional",
+      "name": "情緒通",
+      "organization": "香港特區政府",
+      "number": "18111",
+      "destination": "tel:18111",
+      "scope": "香港；情緒及精神健康支援與轉介",
+      "hours": "24 小時",
+      "timeZone": null,
+      "cost": null,
+      "languages": "粵語、國語、英語及其他 9 種語言（詳見官方說明）",
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202511/04/P2025110400499.htm",
+          "fields": [
+            "number",
+            "scope",
+            "hours",
+            "languages"
+          ],
+          "sourceUpdatedAt": "2025-11-04"
+        }
+      ]
+    }
+  ]
+}

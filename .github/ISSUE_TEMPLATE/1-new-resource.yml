@@ -1,0 +1,80 @@
+name: Add a help line / 新增求助專線
+description: Suggest a free quitline, support line or emergency number for a region. 建議一個地區的免費戒菸、求助或緊急電話。
+title: "[Add] "
+labels: ["new-resource", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Every submission is checked against its official source before it is used. You can write in any language.
+        謝謝你！每筆資料都會先對照官方來源確認才採用。用任何語言填寫都可以。
+
+        **Do not include personal information. This page is public.** 請勿填寫個人資料，這一頁是公開的。
+  - type: input
+    id: region
+    attributes:
+      label: Country or region / 國家或地區
+      placeholder: e.g. Japan
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of service / 服務類型
+      options:
+        - Help to quit smoking / 戒菸協助
+        - Emotional or crisis support / 情緒或危機支持
+        - Emergency number / 緊急電話
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Service name / 服務名稱
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Run by / 主辦單位
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Phone number or link / 電話或網址
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source page / 官方來源網頁
+      description: A government or health-authority page, or the service's own website, that shows this information. 政府、衛生主管機關或該服務自己的網站。
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: hours
+    attributes:
+      label: Hours (only if the source says) / 服務時間（來源有寫才填）
+  - type: input
+    id: cost
+    attributes:
+      label: Cost (only if the source says) / 費用（來源有寫才填）
+  - type: input
+    id: languages
+    attributes:
+      label: Languages (only if the source says) / 語言（來源有寫才填）
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else / 其他補充
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Please confirm / 請確認
+      options:
+        - label: I checked this information on the official source myself. 我自己在官方來源上看過這些資料。
+          required: true
+        - label: This is a free or public service, not an advertisement. 這是免費或公共服務，不是廣告。
+          required: true

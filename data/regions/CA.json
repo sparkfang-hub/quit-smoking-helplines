@@ -1,0 +1,99 @@
+{
+  "code": "CA",
+  "name": "加拿大",
+  "resources": [
+    {
+      "id": "ca-quit",
+      "kind": "cessation",
+      "name": "各省及地區戒菸服務",
+      "organization": "Health Canada",
+      "number": "1-866-366-3667",
+      "destination": "tel:18663663667",
+      "scope": "加拿大；連接各省及地區服務",
+      "hours": null,
+      "timeZone": null,
+      "cost": "免付費專線",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/smoking-tobacco/quit-smoking/provincial-territorial-services.html",
+          "fields": [
+            "number",
+            "scope",
+            "cost"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ],
+      "note": "時段與個別方案資格依省及地區而異。"
+    },
+    {
+      "id": "ca-emergency",
+      "kind": "emergency",
+      "name": "緊急救援",
+      "organization": "加拿大公共衛生署",
+      "number": "911",
+      "destination": "tel:911",
+      "scope": "加拿大；有立即危險時求助",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/public-health/services/suicide-prevention/warning-signs.html",
+          "fields": [
+            "number",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    },
+    {
+      "id": "ca-emotional",
+      "kind": "emotional",
+      "name": "9-8-8 Suicide Crisis Helpline",
+      "organization": "加拿大公共衛生署／9-8-8",
+      "number": "9-8-8",
+      "destination": "tel:988",
+      "scope": "加拿大；自殺危機支持",
+      "hours": "24 小時、全年無休",
+      "timeZone": null,
+      "cost": null,
+      "languages": "英語、法語",
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/public-health/services/suicide-prevention/warning-signs.html",
+          "fields": [
+            "number",
+            "scope",
+            "hours"
+          ],
+          "sourceUpdatedAt": null,
+          "label": "預防自殺頁"
+        },
+        {
+          "url": "https://www.canada.ca/en/public-health/news/2023/11/9-8-8-suicide-crisis-helpline.html",
+          "fields": [
+            "languages"
+          ],
+          "sourceUpdatedAt": null,
+          "label": "9-8-8 背景資料"
+        }
+      ]
+    }
+  ]
+}

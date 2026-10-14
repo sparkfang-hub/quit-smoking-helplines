@@ -1,0 +1,44 @@
+name: Report wrong or outdated information / 回報錯誤或過期
+description: Tell us an entry is wrong, has changed or no longer exists. 回報某筆資料錯誤、已變動或已停止服務。
+title: "[Fix] "
+labels: ["correction", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! You can write in any language. **Do not include personal information. This page is public.**
+        謝謝你！用任何語言填寫都可以。**請勿填寫個人資料，這一頁是公開的。**
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry? / 哪一筆？
+      description: Region and service name, or the entry's id (e.g. tw-quit). 地區和服務名稱，或資料的 id。
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong? / 哪裡有誤？
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: What is correct now? / 現在正確的是什麼？
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source page / 官方來源網頁
+      description: Where the correct information appears. 正確資訊出現的官方網頁。
+      placeholder: https://
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Please confirm / 請確認
+      options:
+        - label: I checked this on the official source myself. 我自己在官方來源上確認過。
+          required: true

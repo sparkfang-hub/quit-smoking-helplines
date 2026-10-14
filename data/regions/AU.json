@@ -1,0 +1,93 @@
+{
+  "code": "AU",
+  "name": "澳洲",
+  "resources": [
+    {
+      "id": "au-quit",
+      "kind": "cessation",
+      "name": "Quitline",
+      "organization": "澳洲衛生部／各州及領地 Quitline",
+      "number": "13 7848",
+      "destination": "tel:137848",
+      "scope": "澳洲；戒菸專業諮詢",
+      "hours": null,
+      "timeZone": null,
+      "cost": null,
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.health.gov.au/sites/default/files/2026-01/give-up-smoking-for-good.pdf",
+          "fields": [
+            "number",
+            "scope"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ],
+      "note": "可查詢回撥服務；時段依各州及領地而異。"
+    },
+    {
+      "id": "au-emergency",
+      "kind": "emergency",
+      "name": "Triple Zero 緊急救援",
+      "organization": "澳洲基礎建設與通訊主管部門",
+      "number": "000",
+      "destination": "tel:000",
+      "scope": "澳洲；警察、消防及救護車",
+      "hours": null,
+      "timeZone": null,
+      "cost": "緊急電話免費",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.infrastructure.gov.au/media-communications/phone/triple-zero",
+          "fields": [
+            "number",
+            "scope",
+            "cost",
+            "network-limitations"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ],
+      "note": "手機若沒有任何電信網路覆蓋，無法接通。不可用簡訊聯絡此號碼。"
+    },
+    {
+      "id": "au-emotional",
+      "kind": "emotional",
+      "name": "Lifeline",
+      "organization": "Lifeline Australia",
+      "number": "13 11 14",
+      "destination": "tel:131114",
+      "scope": "澳洲；個人危機、情緒困擾及自殺危機支持",
+      "hours": "24 小時、全年無休",
+      "timeZone": null,
+      "cost": "免費支持",
+      "languages": null,
+      "crossBorder": null,
+      "status": "verified",
+      "checkedAt": "2026-09-10",
+      "reviewBy": "2026-12-10",
+      "sources": [
+        {
+          "url": "https://www.lifeline.org.au/get-help/national-services/lifeline-crisis-support",
+          "fields": [
+            "number",
+            "scope",
+            "hours",
+            "cost"
+          ],
+          "sourceUpdatedAt": null
+        }
+      ]
+    }
+  ]
+}
